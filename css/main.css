@@ -15,16 +15,6 @@ html {
 }
 
 .action-btn:hover {
-  background-color: #e2e2e2;
-}
-
-.action-tools-top .action-btn {
-  background-color: rgba(0, 0, 0, .2);
-  color: #6feff9;
-}
-
-.action-tools-top .action-btn:hover {
-  background-color: #fff;
-  filter: none;
-  color: #555;
+  background-color: #333
+  color: #fff;
 }
