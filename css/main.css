@@ -14,6 +14,10 @@ html {
   color: #fff;
 }
 
+.action-tools-top {
+  border-top: 1px dashed #6feff9;
+  border-bottom: 1px dashed #6feff9;
+}
 .action-tools-top .action-btn,
 .action-tools-bottom .action-btn {
   color: #6feff9;
@@ -25,41 +29,15 @@ html {
   color: #fff;
 }
 
-/* #fr-bar {
-  height: 400.34px;
-  animation: grow 500ms linear;
-  transform-origin: bottom;
+.park-map,
+.weekly-stats,
+.cctv-text {
+  color: #6feff9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px dashed #6feff9;
 }
-
-@keyframes grow {
-
-  0% {
-    height: 0px;
-  }
-
-  100% {
-    visibility: visible;
-  }
-
-}
-
-#mo-bar,
-#we-bar {
-  animation: grow 500ms linear;
-  transform-origin: bottom;
-}
-
-@keyframes grow {
-
-  0% {
-    height: 0px;
-  }
-
-  100% {
-    height: 57.71px;
-  }
-
-} */
 
 #invisible-rectangle {
   height: 800px;
