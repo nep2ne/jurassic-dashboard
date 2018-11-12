@@ -15,9 +15,10 @@ html {
 }
 
 .action-tools-top {
-  border-top: 1px dashed #6feff9;
-  border-bottom: 1px dashed #6feff9;
+  border-top: 1px dotted #6feff9;
+  border-bottom: 1px dotted #6feff9;
 }
+
 .action-tools-top .action-btn,
 .action-tools-bottom .action-btn {
   color: #6feff9;
@@ -36,7 +37,8 @@ html {
   position: absolute;
   top: 0;
   right: 0;
-  border: 1px dashed #6feff9;
+  border: 1px dotted #6feff9;
+  text-shadow: 0 0 10px #6feff9;
 }
 
 #invisible-rectangle {
