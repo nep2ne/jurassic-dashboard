@@ -22,6 +22,7 @@ html {
 .action-tools-top .action-btn,
 .action-tools-bottom .action-btn {
   color: #6feff9;
+  text-shadow: 0 0 30px #6feff9;
 }
 
 .action-tools-top .action-btn:hover,
@@ -38,7 +39,7 @@ html {
   top: 0;
   right: 0;
   border: 1px dotted #6feff9;
-  text-shadow: 0 0 10px #6feff9;
+  text-shadow: 0 0 30px #6feff9;
 }
 
 #invisible-rectangle {
@@ -58,4 +59,13 @@ html {
     height: 0;
   }
 
+}
+
+#mo-bar,
+#we-bar {
+  fill: #ffd31d;
+}
+
+#fr-bar {
+  fill: #f62e52;
 }
